@@ -8,3 +8,11 @@ for i in range(1,num+1):
     summ+=temp
 print (composition) 
 print (summ)
+
+# 2 способ (другая запись)
+# num=int(input('введите число '))
+# list=[round((1+1/i)**i,5) for i in range(1,n+1)]
+# print(f'Список:{list}')
+# print(f'Сумма чисел списка: {round(sum(list),5)}')
+# except ValueError:
+# print('Вводить необходимо только целое число')

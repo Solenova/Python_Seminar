@@ -16,3 +16,11 @@ if int(lines[0])<=col and int(lines[1])<=col:
     print(composition)
 else: print('один из номеров позиций(или оба) больше элементов последовательности')
 
+# позицию для произведения можно задать с экрана и записать в файл
+# f=open('input.txt','w')
+# while True:
+#     s=input('Укажите позицию для вычисления -')
+#     if s=="":
+#         break
+#     f.write(s+"\n")
+# f.close()    

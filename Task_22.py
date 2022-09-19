@@ -9,3 +9,11 @@ for i in range(num):
     temp*=(i+1)
     composition.append(temp)
 print (composition) 
+
+# 2 способ (простой, но малоприменимый, т.к. введенные числа не остаются в памяти)
+# num=int(input('введите число '))
+# a=1
+# for i in range(1,num+1):
+#     a*=i
+#     print(a,end=" ")
+# print()    

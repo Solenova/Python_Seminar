@@ -8,7 +8,15 @@ for i in range(col):
 print (list) 
 for i in range(col):
     j=random.randint(0,col)
-    temp=list[i]
-    list[i]=list[j]
-    list[j]=temp
+    list[i],list[j]=list[j],list[i]      # поменять местами элементы
 print (list) 
+
+# 2 способ
+# import random
+# list=[]
+# for i in range(col):
+#     temp=random.randint(-50,50)
+#     list.append(temp)
+# print (list) 
+# random.shuffle(list)          # метод перемешивания элементов случайным образом
+# print (list)

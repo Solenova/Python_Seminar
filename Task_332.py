@@ -14,7 +14,7 @@ print (list)
 listComp=[]  
 if col%2==0: rang=col/2 
 else: rang= int(col/2)+1    
-for i in range(rang):
+for i in range(int(rang)):
     composition=list[i]*list[len(list)-i-1]
     listComp.append(composition)
 print(listComp)    
