@@ -5,14 +5,21 @@ print(line)
 
 words = line.split(' ')             # разделили строку на список
 fragment = 'кава'
+print(' '.join(list(filter(lambda x: fragment not in x, words)))) # семина 6 (улучшение кода)
 
-new_words = []                      # убириаем слова, содержащие 'кава'
-for word in words:
-   if fragment not in word:
-        new_words.append(word)
 
-res=' '.join(new_words)             # собираем строку используя в качестве разделителя пробел
-print(res)
+
+
+# new_words = []                      # убириаем слова, содержащие 'кава'
+# for word in words:
+#    if fragment not in word:
+#         new_words.append(word)
+
+# res=' '.join(new_words)             # собираем строку используя в качестве разделителя пробел
+# print(res)
+
+
+
 
 # # 2 method с пмощью регулярных выражений
 # # исходная строка
