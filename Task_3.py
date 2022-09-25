@@ -7,5 +7,10 @@ a=int(input('введите число'))
 #     list.append(int(-i))
 #     i-=1
 # print (list)
-for i in range(-a,a+1):
-    print(i,end=' ')
+
+#2 method
+# for i in range(-a,a+1):
+#     print(i,end=' ')
+
+#Задание к 6 семинару(улучшение кода)
+print([i for i in range(-a,a+1)])
